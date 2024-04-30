@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.hero-container {
+    display: flex;
+    background-color: #1f2937;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button,
+.signup-card {
+    background-color: #3882f6;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight:900;
+    color: #1f2937;
+}
+
+.quote-container {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+ul {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
